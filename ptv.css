@@ -1,0 +1,22 @@
+body{
+  background-image: url('cityscape.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*
+img {
+  width: 100%;
+}*/
+
+.main-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 30px;
+}
